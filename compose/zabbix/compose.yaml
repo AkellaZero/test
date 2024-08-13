@@ -8,7 +8,7 @@ services:
       POSTGRES_USER: zabbix
       POSTGRES_PASSWORD: zabbix
       POSTGRES_DB: zabbix
-      PG_DATA: /var/lib/postgresql/data/pgdata #data storage
+      PG_DATA: /var/lib/postgresql/data/pgdata
     volumes:
       - /opt/postgres:/var/lib/postgresql/data/pgdata
 
